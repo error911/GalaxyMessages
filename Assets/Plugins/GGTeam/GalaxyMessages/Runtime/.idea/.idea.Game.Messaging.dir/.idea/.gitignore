@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/.idea.Game.Messaging.iml
+/projectSettingsUpdater.xml
+/contentModel.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../../../../:\Git\GGTeam\GGTeam\Assets\GGTeam\SmartMobileCore\Modules\MessagesService\Game.Messaging\.idea\.idea.Game.Messaging.dir\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
