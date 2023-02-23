@@ -2,7 +2,7 @@
 Fast messages flow for Unity
 
 ### Install from Unity Package Manager.
-You can add `https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask` to Package Manager
+You can add `https://github.com/error911/GalaxyMessages.git?path=Assets/Plugins/GalaxyMessages` to Package Manager
 
 ![image](https://user-images.githubusercontent.com/46207/79450714-3aadd100-8020-11ea-8aae-b8d87fc4d7be.png)
 
