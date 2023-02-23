@@ -1,12 +1,17 @@
 {
-    "name": "com.ggteam.galaxymessages",
-    "displayName": "GalaxyMessages",
-    "author": { "name": "Cysharp, Inc.", "url": "https://cysharp.co.jp/en/" },
-    "version": "1.0.0",
-    "unity": "2020.1",
-    "description": "Provides efficient message flow integration.",
-    "keywords": [ "Messages", "Subscribe/Unsubscribe", "Publish", "Messaging", "Sender" ],
-    "license": "MIT",
-    "category": "Task",
-    "dependencies": {}
+  "name": "com.unity.galaxymessages",
+  "displayName": "GalaxyMessages",
+  "author": { "name": "Cysharp, Inc.", "url": "https://cysharp.co.jp/en/" },
+  "version": "1.0.0",
+  "unity": "2019.2",
+  "description": "Provides efficient message flow integration.",
+  "keywords": [ 
+	"Messages",
+	"Subscribe",
+	"Publish", 
+	"Unsubscribe" 
+	],
+  "license": "MIT",
+  "category": "Task",
+  "dependencies": {}
 }
