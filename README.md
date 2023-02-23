@@ -51,6 +51,7 @@ private void OnDisable()
     _messageOnPlayerChangeHP?.Dispose();
 }
 
+// Message Callback method
 private void MessageOnChangeHP(Message.Player.ChangeHP hp)
 {
     Debug.Log($"New Player HP: {hp}");
