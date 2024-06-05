@@ -35,6 +35,8 @@ private void Damage()
 {
     // SEND MESSAGE (data = hp)
     Message.Player.ChangeHP.Publish(20);
+
+    // SEND EMPTY MESSAGE
     Message.Player.GamePaused.Publish();
 }
 ```
