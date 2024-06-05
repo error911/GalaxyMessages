@@ -22,6 +22,8 @@ public static partial class Message
         {
             public int Data => Model;
         }
+
+        public sealed class GamePaused : GalaxyMessage<GamePaused> { }
     }
 }
 ```
@@ -33,6 +35,7 @@ private void Damage()
 {
     // SEND MESSAGE (data = hp)
     Message.Player.ChangeHP.Publish(20);
+    Message.Player.GamePaused.Publish();
 }
 ```
 
