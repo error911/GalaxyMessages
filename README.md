@@ -63,4 +63,23 @@ private void MessageOnChangeHP(Message.Player.ChangeHP hp)
 }
 ```
 
+Working correctly with GC (If you have several messages)
+---
+```csharp
+List<IDisposable> _disposables = new List<IDisposable>();
+
+public void Start()
+{
+    _disposables.Add(Message.Player.ChangeHP.Subscribe(MessageOnChangeHP));
+}
+
+public void Release()
+{
+    foreach (var disposable in _disposables)
+        disposable.Dispose()
+}
+
+```
+
+
 remember to use: `namespace GGTeam.GalaxyMessages`
